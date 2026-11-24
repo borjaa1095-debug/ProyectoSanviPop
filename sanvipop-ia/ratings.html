@@ -1,0 +1,45 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>Received reviews | SanviPop</title>
+    <script type="module" src="src/ratings.ts"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">SanviPop</a>
+        <ul class="navbar-nav me-auto">
+          <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+          <li class="nav-item"><a class="nav-link" href="add-product.html">New product</a></li>
+          <li class="nav-item"><a class="nav-link" href="profile.html">My profile</a></li>
+        </ul>
+        <a class="nav-link text-white" href="login.html" id="logout">Logout</a>
+      </div>
+    </nav>
+    <main class="container py-4">
+      <h1 class="h3">Received reviews</h1>
+      <a id="ratedUser" class="d-none" href="profile.html">View profile</a>
+      <p id="ratingsSummary" class="text-muted mt-3" role="status"></p>
+      <div id="receivedRatings" class="row row-cols-1 row-cols-md-2 g-3"></div>
+    </main>
+    <template id="receivedRating">
+      <article class="col">
+        <div class="card shadow-sm h-100">
+          <div class="card-body">
+            <div class="d-flex align-items-center gap-2 mb-2">
+              <img class="rounded-circle rating-photo" width="40" height="40" alt="" />
+              <a class="reviewer fw-semibold"></a>
+            </div>
+            <span class="rating-stars text-warning" aria-hidden="true"></span>
+            <span class="rating-score badge bg-secondary"></span>
+            <p class="rating-comment mt-2 mb-2"></p>
+            <a class="rating-product"></a>
+          </div>
+        </div>
+      </article>
+    </template>
+  </body>
+</html>

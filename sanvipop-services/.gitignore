@@ -1,0 +1,92 @@
+# compiled output
+/dist
+/node_modules
+/build
+
+# Logs
+logs
+*.log
+npm-debug.log*
+pnpm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+
+# OS
+.DS_Store
+
+# Tests
+/coverage
+/.nyc_output
+
+# IDEs and editors
+/.idea
+.project
+.classpath
+.c9/
+*.launch
+.settings/
+*.sublime-workspace
+
+# IDE - VSCode
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+
+# dotenv environment variable files
+.env
+.env.development.local
+.env.test.local
+.env.production.local
+.env.local
+
+# temp directory
+.temp
+.tmp
+
+# Runtime data
+pids
+*.pid
+*.seed
+*.pid.lock
+
+# Diagnostic reports (https://nodejs.org/api/report.html)
+report.[0-9]*.[0-9]*.[0-9]*.[0-9]*.json
+
+# SQLite & Database
+# *.db
+# *.db-journal
+# *.db-shm
+# *.db-wal
+
+# TypeScript build info
+*.tsbuildinfo
+
+img/products/*
+!.gitkeep
+!img/products/.gitkeep
+!img/products/product-1.jpg
+!img/products/product-2.jpg
+!img/products/product-3.jpg
+!img/products/product-4.jpg
+!img/products/product-5.jpg
+!img/products/product-6.jpg
+!img/products/product-7.jpg
+!img/products/product-8.jpg
+!img/products/product-9.jpg
+!img/products/product-10.jpg
+!img/products/product-11.jpg
+!img/products/product-12.jpg
+!img/products/product-13.jpg
+!img/products/product-14.jpg
+
+img/users/*
+!img/users/.gitkeep
+!img/users/arturo.jpg
+!img/users/maria.jpg
+!img/users/carlos.jpg
+!img/users/1791727618460-0cc713f7-f2d5-4a82-9f65-0950682f3541.jpg
+
+

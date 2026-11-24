@@ -1,0 +1,32 @@
+<!doctype html>
+<html lang="es">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Valoraciones | SanviPop</title>
+    <link rel="stylesheet" href="./style.css" />
+    <script type="module" src="./src/ratings.ts"></script>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand navbar-dark bg-dark">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="index.html">SanviPop</a>
+        <div class="navbar-nav me-auto">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="add-product.html">New product</a>
+          <a class="nav-link" href="profile.html">My profile</a>
+        </div>
+        <a class="nav-link text-light" href="#" id="logout">Logout</a>
+      </div>
+    </nav>
+    <main class="container my-4">
+      <a href="profile.html" id="backProfile">Volver al perfil</a>
+      <h1 class="mt-3" id="ratingsTitle">Valoraciones</h1>
+      <p id="ratingsSummary" role="status">Cargando valoraciones…</p>
+      <section
+        id="ratingsContainer"
+        aria-label="Valoraciones recibidas"
+      ></section>
+    </main>
+  </body>
+</html>

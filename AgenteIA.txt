@@ -1,0 +1,8 @@
+Implementa la aplicación SanviPop completa a partir de las plantillas proporcionadas y los endpoints descritos en README.md. Los servicios están funcionando en http://localhost:3000. Incluye una página ratings.html que muestre las valoraciones recibidas por un usuario.
+
+-- Prompt utilizado para el SanviPop-IA
+
+He comparado mi proyecto, desarrollado con ayuda de IA, con una versión generada por Codex desde las plantillas originales y el README de los servicios. En mi proyecto las peticiones están separadas en clases de servicios, mientras que la versión IA utiliza más funciones compartidas en common.ts.
+Para mostrar las valoraciones, mi proyecto crea las tarjetas mediante una función y la versión IA utiliza un template HTML. También cambia la forma de mostrar los mensajes: mi versión usa principalmente alertas y la otra mensajes dentro de la página.
+AGENTS.md se creó después de ratings.html, así que no influyó en su generación inicial. La IA permitió avanzar rápido, pero fue necesario revisar el código y comprobar que cumplía el enunciado.
+Durante la creación del proyecto con IA ha fallado la vinculación de la API, se consiguió solucionar con la IA volviendo a analizar los archivos de nuevo.
